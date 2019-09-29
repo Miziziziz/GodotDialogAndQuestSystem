@@ -1,0 +1,16 @@
+[gd_scene format=2]
+
+[node name="DialogResponse" type="Label"]
+editor/display_folded = true
+margin_right = 500.0
+margin_bottom = 14.0
+rect_min_size = Vector2( 500, 0 )
+text = "asdasdasdasdasdasd aaaaaaaaaaaa  aaaaaaaaaaa aaaaaaaaaaa"
+valign = 1
+autowrap = true
+
+[node name="Button" type="Button" parent="."]
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = 6.0

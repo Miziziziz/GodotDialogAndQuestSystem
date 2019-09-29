@@ -1,0 +1,81 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://DialogWindow.gd" type="Script" id=1]
+
+[node name="DialogWindow" type="Control"]
+margin_left = 198.0
+margin_top = 109.0
+margin_right = 720.0
+margin_bottom = 447.0
+script = ExtResource( 1 )
+
+[node name="TextDisplay" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -11.0
+margin_bottom = -87.0
+
+[node name="TextEdit" type="TextEdit" parent="TextDisplay"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 20.0
+margin_right = -5.0
+margin_bottom = -5.0
+text = "
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+assssssssssd
+"
+readonly = true
+
+[node name="NameDisplay" type="Label" parent="TextDisplay"]
+margin_left = 5.67226
+margin_top = 2.80676
+margin_right = 45.6723
+margin_bottom = 16.8068
+text = "Name"
+
+[node name="ResponseOptions" type="Panel" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -80.0
+margin_bottom = 107.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="ResponseOptions"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 26.0
+margin_right = -5.0
+margin_bottom = -5.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ResponseOptions/ScrollContainer"]
+
+[node name="Label" type="Label" parent="ResponseOptions"]
+margin_left = 4.59932
+margin_top = 4.5993
+margin_right = 81.5993
+margin_bottom = 18.5993
+text = "Response Options"
