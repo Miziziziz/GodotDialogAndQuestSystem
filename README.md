@@ -1,6 +1,6 @@
 To write conversations, go to DialogAndQuestManager.gd and alter the CONVERSATIONS const
 To start a conversation, call load_conversation on the DialogWindow scene
-
+```
 structure of conversation:
 conversation_id: {
 	list of greetings [
@@ -34,3 +34,4 @@ questions in a specific order to get to a certain dialog window and exiting the 
 To use this system for quests, just add things to the global_list_of_things_that_have_happened whenever something 
 interesting happens, e.g. "killed_all_rats", and use the conditions_met or is_condition_met methods to check if 
 the player should recieve a reward or have access to an area.
+```
