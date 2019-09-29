@@ -1,6 +1,7 @@
+```
 To write conversations, go to DialogAndQuestManager.gd and alter the CONVERSATIONS const
 To start a conversation, call load_conversation on the DialogWindow scene
-```
+
 structure of conversation:
 conversation_id: {
 	list of greetings [
